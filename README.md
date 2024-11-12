@@ -3,7 +3,7 @@
 ![alt text](<DALL·E 2024-11-12 06.13.07 - A beautiful aesthetic arrangement of elegant perfume bottles on a soft pastel background. The bottles have various shapes, some with intricate caps an.webp>)
 
 ## Table of Contents
-- [Bussiness Understanding](#bussiness understanding)
+- [Bussiness Understanding](#bussiness-understanding)
 - [Problem Statement](#problem-statement)
 - [Main Objective](#main-objective)
 - [Specific Objective](#specific-objective)
@@ -50,19 +50,19 @@ b) Get price indication of the chosen perfume.
 The dataset contains 9 columns and 2479 rows.
 
 
-- **category:**specify gender target i.e women, men or unisex
+- **category:** specify gender target i.e women, men or unisex
 
 - **title:** The name of the perfume
 
 - **price:** The price of the perfume
 
-- **link:**The specific location path on Cierra website
+- **link:** The specific location path on Cierra website
 
 - **image:** The image of the specific perfume
 
-- **description:**A synopsis of the perfume
+- **description:** A synopsis of the perfume
 
-- **top:**The initial scent, lasting 5-15 minutes.
+- **top:** The initial scent, lasting 5-15 minutes.
 
 - **middle:** The core of the fragrance, emerging after the top notes dissipate
 
