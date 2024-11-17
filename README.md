@@ -1,6 +1,6 @@
 ## Perfume Recommender System
 
-![alt text](<DALL·E 2024-11-12 06.13.07 - A beautiful aesthetic arrangement of elegant perfume bottles on a soft pastel background. The bottles have various shapes, some with intricate caps an.jpg>)
+![alt text](<perfume1.jpg>)
 
 ## Table of Contents
 - [Bussiness Understanding](#bussiness-understanding)
