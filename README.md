@@ -44,6 +44,8 @@ The goal of creating the Perfume Recomender System is to ensure perfume novices 
 2. To implement a user-friendly interface to allow customers to input preferences (e.g., fragrance notes,gender and budget) and receive relevant recommendations.
 3. To direct prospective buyers to an e-commerce platform whether they can purchase product of choice.
 
+Note: Online app can be viewed on
+https://perfumes.waithakasam.com/
 # Data understanding
 
  The data was  web scraped from https://cierraperfumes.com/ website.
@@ -103,15 +105,19 @@ The baseline models were Item based and user based recommendation system models.
 
 The recommendations were evaluated based on three primary criteria:
 
-Gender Relevance (1.0000): This indicates a full emphasis on gender-appropriate fragrances. The recommendations prioritize options  specifically for women, which ensures the suggestions are aligned with audience.
+Gender Relevance : This indicates a full emphasis on gender-appropriate fragrances. 
 
-Note Relevance (0.2000): This indicates a low emphasis on the fragrance notes in the product recommendations. It suggests that the specific scent profile may not be a primary factor in the selection process.
+Note Relevance : It suggests the specific scent profile based on  the selection process.
  
-Price Relevance (1.0000): This shows a strong focus on prices, suggesting that the recommendations take into account the price range that is likely to resonate with the intended consumer.
+Price Relevance : This suggest that the recommendations take into account the price range that is likely to resonate with the intended consumer.
 
 
 
-# Conclusion
+# Results and  Conclusion
+
+A pretty simple recommendation system was deloped capable of delivering acceptable results. Below is a snippet of the app
+
+![alt text](<model image.jpg>)
 
 The perfume recommender system successfully identifies and ranks perfumes based on user preferences for notes, gender, and price range. The cosine similarity model demonstrated the best alignment with query criteria, providing consistent and relevant recommendations.
 
@@ -125,3 +131,9 @@ The perfume recommender system successfully identifies and ranks perfumes based 
 
 
 * Continuously test and optimize the weights assigned to notes, gender, and price to ensure recommendations remain relevant as user preferences and dataset characteristics evolve.
+
+# References
+
+https://cierraperfumes.com/
+
+https://www.fragrancex.com/blog/fragrance-notes/
