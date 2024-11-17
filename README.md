@@ -40,9 +40,9 @@ The goal of creating the Perfume Recomender System is to ensure perfume novices 
 
 # Specific Objective
 
-a) Help the client choose a perfume that suits them.
-
-b) Get price indication of the chosen perfume.
+1. To develop a recommendation engine that can suggest perfumes based on fragrance notes, categories, and price.
+2. To implement a user-friendly interface to allow customers to input preferences (e.g., fragrance notes,gender and budget) and receive relevant recommendations.
+3. To direct prospective buyers to an e-commerce platform whether they can purchase product of choice.
 
 # Data understanding
 
@@ -88,7 +88,7 @@ Conducting a thorough exploratory data analysis (EDA) is pivotal in crafting an 
 This EDA offered vital insights, identifying key dataset features.
 
 
-![alt text](image.png)
+![alt text](image-2.png)
 
 The word cloud visually represents the most fragrance notes found in the positive review texts, where the size of each word in the cloud corresponds to its frequency in the reviews. This provides an overview of the key terms and themes in positive reviews.
 Therefore from the plot above, the most occurring words in the positive reviews are words vanilla, rose and patchouli.
@@ -100,3 +100,28 @@ Therefore from the plot above, the most occurring words in the positive reviews 
 The baseline models were Item based and user based recommendation system models. 
 
 # Evaluation
+
+The recommendations were evaluated based on three primary criteria:
+
+Gender Relevance (1.0000): This indicates a full emphasis on gender-appropriate fragrances. The recommendations prioritize options  specifically for women, which ensures the suggestions are aligned with audience.
+
+Note Relevance (0.2000): This indicates a low emphasis on the fragrance notes in the product recommendations. It suggests that the specific scent profile may not be a primary factor in the selection process.
+ 
+Price Relevance (1.0000): This shows a strong focus on prices, suggesting that the recommendations take into account the price range that is likely to resonate with the intended consumer.
+
+
+
+# Conclusion
+
+The perfume recommender system successfully identifies and ranks perfumes based on user preferences for notes, gender, and price range. The cosine similarity model demonstrated the best alignment with query criteria, providing consistent and relevant recommendations.
+
+
+# Recommendations
+
+* Incorporate user feedback mechanisms to improve recommendations over time. For instance, allow users to rate suggested perfumes, and use this data to refine future recommendations.
+
+
+* Enhance the system by integrating additional features such as brand preferences, customer reviews, or seasonal trends to provide more holistic recommendations.
+
+
+* Continuously test and optimize the weights assigned to notes, gender, and price to ensure recommendations remain relevant as user preferences and dataset characteristics evolve.
