@@ -35,8 +35,7 @@ This project seeks to develop a personalized perfume recommendation system that 
 
 # Main Objective
 
-The goal of creating the Perfume Recomender System is to ensure perfume novices and perfume experts are able to choose scents they like and create a library of scents after all 'variety is the spice of life'. Our recomender will also be able to provide indicative prices hence the prospective buyer can make budgetary allocations.
-
+To create Perfume Recomender System.
 
 # Specific Objective
 
