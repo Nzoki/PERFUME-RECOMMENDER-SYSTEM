@@ -3,16 +3,14 @@
 ![alt text](<perfume1.jpg>)
 
 ## Table of Contents
-- [Bussiness Understanding](#bussiness-understanding)
+- [Business Understanding](#business-understanding)
 - [Problem Statement](#problem-statement)
 - [Main Objective](#main-objective)
 - [Specific Objective](#specific-objective)
 - [Data understanding](#data-understanding)
 - [Data Preparation](#data-preparation)
-- [Explatory Data Analysis](#explatory-data-analysis)
-- [Modelling](#modelling)
-- [Evaluation](#evaluation)
-- [Conclusions](#conclusions)
+- [Data Visualization](#data-visualization)
+- [Results and Conclusions](#results-and-conclusions)
 - [Recommendation](#recommendation)
 
 
@@ -69,13 +67,13 @@ The dataset contains 9 columns and 2479 rows.
 
 - **base:** The final lingering notes, which emerge after the middle notes fade and can last several hours.
 
-# Data Cleaning and Preparation
+# Data Preparation
 
 Data cleaning involved renaming columns, handling missing data, removing duplicates, and combining base, top, and heart notes into a single column. Feature normalization and lemmatization were also applied to prepare the dataset for analysis.
 
 Cosine similarity was calculated to measure the similarity between features, guiding the recommendation model. These steps ensured a well-prepared dataset that enabled the successful deployment of the perfume recommender system on a virtual server
 
-# Visualization
+# Data Visualization
 
 
 ![alt text](image-2.png)
@@ -90,7 +88,7 @@ Cosine similarity was calculated to measure the similarity between features, gui
 
 # Results and  Conclusion
 
-A pretty simple recommendation system was deloped capable of delivering acceptable results. Below is a snippet of the app
+A pretty simple recommendation system was developed capable of delivering acceptable results. Below is a snippet of the App
 
 ![alt text](<model image.jpg>)
 
