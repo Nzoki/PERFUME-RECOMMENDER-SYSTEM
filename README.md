@@ -24,9 +24,9 @@
 # Business Understanding
 
 There are two sensible ways to buy perfumes. First is to walk into a store and choose one or alternatively online shopping. Both these methods require a bit of knowledge from the buyer’s end on their likes and dislikes. When purchasing perfumes, a buyer needs to consider the notes of the perfumes which are divided into three. Notes in perfumery are descriptors of scents that can be sensed upon the application of a perfume. The three notes are
-<b>Top notes <b\> which basically last for 5 – 15 minutes, the <b>heart notes</b\> also known as middle notes, that will last for 20 – 60 minutes and the <b>base notes</b> which lasts for a minimum of 6 hours. Different notes react differently for each buyer. Depending on the concentration of aromatic oils, a fragrance can go through these stages quickly or last longer. After settling on the different notes, a buyer then needs to settle on a perfume that meets their price range.
+**Top notes** which basically last for 5 – 15 minutes, the **heart notes** also known as middle notes, that will last for 20 – 60 minutes and the **base notes** which lasts for a minimum of 6 hours. Different notes react differently for each buyer. Depending on the concentration of aromatic oils, a fragrance can go through these stages quickly or last longer. After settling on the different notes, a buyer then needs to settle on a perfume that meets their price range.
 
-# Proble m Statement
+# Problem Statement
 
 Finding the perfect fragrance is  often influenced by unique preferences for scent profiles and price points. However, with an overwhelming number of perfumes available on the market, users face difficulty in identifying options that align with their individual tastes, particularly if they’re seeking new or lesser-known brands. Current recommendation methods in retail often lack customization, leading to generalized suggestions that may not satisfy the diverse preferences of fragrance enthusiasts.
 
@@ -51,21 +51,21 @@ https://perfumes.waithakasam.com/
 The dataset contains 9 columns and 2479 rows.
 
 
-- **category:** specify gender target i.e women, men or unisex
+- **category:** specify gender target i.e women, men or unisex.
 
-- **title:** The name of the perfume
+- **title:** The name of the perfume.
 
-- **price:** The price of the perfume
+- **price:** The price of the perfume.
 
-- **link:** The specific location path on Cierra website
+- **link:** The specific location path on Cierra website.
 
-- **image:** The image of the specific perfume
+- **image:** The image of the specific perfume.
 
-- **description:** A synopsis of the perfume
+- **description:** A synopsis of the perfume.
 
 - **top:** The initial scent, lasting 5-15 minutes.
 
-- **middle:** The core of the fragrance, emerging after the top notes dissipate
+- **middle:** The core of the fragrance, emerging after the top notes dissipate.
 
 - **base:** The final lingering notes, which emerge after the middle notes fade and can last several hours.
 
