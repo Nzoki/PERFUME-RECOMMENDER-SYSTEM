@@ -21,12 +21,12 @@
 
 
 
-# Bussiness Understanding
+# Business Understanding
 
-There are two sensible ways to buy perfumes. First is to walk into a store and choose one or alternatively online shopping. Both these methods require a bit of knowledge from the buyer’s end on their likes and dislikes. When purchasing perfumes, a buyer needs to consider the notes of the perfumes which are divided into 3. Notes in perfumery are descriptors of scents that can be sensed upon the application of a perfume. The 3 notes are:-
-Top notes which basically last for 5 – 15 minutes, the heart notes also known as middle notes, that will last for 20 – 60 minutes and the base notes which lasts for a minimum of 6 hours. Different notes react differently for each buyer. Depending on the concentration of aromatic oils, a fragrance can go through these stages quickly or last longer. After settling on the different notes, a buyer then needs to settle on a perfume that meets their price range.
+There are two sensible ways to buy perfumes. First is to walk into a store and choose one or alternatively online shopping. Both these methods require a bit of knowledge from the buyer’s end on their likes and dislikes. When purchasing perfumes, a buyer needs to consider the notes of the perfumes which are divided into three. Notes in perfumery are descriptors of scents that can be sensed upon the application of a perfume. The three notes are
+<b>Top notes <b\> which basically last for 5 – 15 minutes, the <b>heart notes</b\> also known as middle notes, that will last for 20 – 60 minutes and the <b>base notes</b> which lasts for a minimum of 6 hours. Different notes react differently for each buyer. Depending on the concentration of aromatic oils, a fragrance can go through these stages quickly or last longer. After settling on the different notes, a buyer then needs to settle on a perfume that meets their price range.
 
-# Problem Statement
+# Proble m Statement
 
 Finding the perfect fragrance is  often influenced by unique preferences for scent profiles and price points. However, with an overwhelming number of perfumes available on the market, users face difficulty in identifying options that align with their individual tastes, particularly if they’re seeking new or lesser-known brands. Current recommendation methods in retail often lack customization, leading to generalized suggestions that may not satisfy the diverse preferences of fragrance enthusiasts.
 
@@ -69,46 +69,22 @@ The dataset contains 9 columns and 2479 rows.
 
 - **base:** The final lingering notes, which emerge after the middle notes fade and can last several hours.
 
-# Data Preparation
+# Data Cleaning and Preparation
 
-In this section, we will perform data cleaning to prepare the dataset for analysis, the various data cleaning methods that are to be used will be;
+Data cleaning involved renaming columns, handling missing data, removing duplicates, and combining base, top, and heart notes into a single column. Feature normalization and lemmatization were also applied to prepare the dataset for analysis.
 
-- Renaming columns
-- Checking Dealing with missing data
-- Checking and removing duplicates 
-- Feature Engineering
-- Selecting the Relevant Columns
-- Dropping Irrelevant columns
-- Selecting relevant rows
+Cosine similarity was calculated to measure the similarity between features, guiding the recommendation model. These steps ensured a well-prepared dataset that enabled the successful deployment of the perfume recommender system on a virtual server
 
-# Exploratory Data Analysis
-
-
-Conducting a thorough exploratory data analysis (EDA) is pivotal in crafting an interactive and user-friendly perfume recommendation system. 
-
-This EDA offered vital insights, identifying key dataset features.
+# Visualization
 
 
 ![alt text](image-2.png)
 
-The word cloud visually represents the most fragrance notes found in the positive review texts, where the size of each word in the cloud corresponds to its frequency in the reviews. This provides an overview of the key terms and themes in positive reviews.
-Therefore from the plot above, the most occurring words in the positive reviews are words vanilla, rose and patchouli.
+![alt text](genderdist.png)
+
+![alt text](pricedist.png)
 
 
-
-# Modelling
-
-The baseline models were Item based and user based recommendation system models. 
-
-# Evaluation
-
-The recommendations were evaluated based on three primary criteria:
-
-Gender Relevance : This indicates a full emphasis on gender-appropriate fragrances. 
-
-Note Relevance : It suggests the specific scent profile based on  the selection process.
- 
-Price Relevance : This suggest that the recommendations take into account the price range that is likely to resonate with the intended consumer.
 
 
 
