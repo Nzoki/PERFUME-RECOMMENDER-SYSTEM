@@ -2,7 +2,6 @@
 
 ![alt text](<perfume1.jpg>)
 
-![alt text](<Images\perfume1.jpg>)
 ## Table of Contents
 - [Business Understanding](#business-understanding)
 - [Problem Statement](#problem-statement)
