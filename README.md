@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Business Understanding](#business-understanding)
 - [Problem Statement](#problem-statement)
-- [Main Objective](#main-objective)
+- [Main Objective](#objective)
 - [Specific Objective](#specific-objective)
 - [Data understanding](#data-understanding)
 - [Data Preparation](#data-preparation)
@@ -32,7 +32,7 @@ Finding the perfect fragrance is  often influenced by unique preferences for sce
 This project seeks to develop a personalized perfume recommendation system that recommends fragrances based on their scent composition, descriptions, and price. By using data on each perfume’s fragrance notes (top, middle, and base), detailed descriptions, and price range, the system will suggest perfumes that match a user’s specific preferences. This content-based approach will empower users to explore a curated list of perfumes aligned with their scent profile, creating a more engaging and effective discovery experience in the vast world of fragrances.
 
 
-# Main Objective
+# Objective
 
 To create Perfume Recomender System.
 
@@ -87,7 +87,7 @@ Cosine similarity was calculated to measure the similarity between features, gui
 
 
 
-# Results and  Conclusion
+# Results and Conclusion
 
 A pretty simple recommendation system was developed capable of delivering acceptable results. Below is a snippet of the App
 
