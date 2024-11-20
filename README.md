@@ -95,6 +95,11 @@ A pretty simple recommendation system was developed capable of delivering accept
 
 The perfume recommender system successfully identifies and ranks perfumes based on user preferences for notes, gender, and price range. The cosine similarity model demonstrated the best alignment with query criteria, providing consistent and relevant recommendations.
 
+## Model Limitations
+
+ **Static Dataset:** The system relies on a static dataset, requiring manual updates to include new perfumes or reflect changes in existing products making it difficult  to adapt to new perfumes and trends. 
+
+ **Subjectivity in Scent Preferences:** Scent preferences are highly personal, and the system assumes similarity in scent notes aligns with user satisfaction, which may not always hold true. 
 
 # Recommendations
 
